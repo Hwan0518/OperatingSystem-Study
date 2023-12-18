@@ -23,7 +23,7 @@
     - 기능 : 시스템 운영에 필요한 핵심 기능 수행과, 시스템의 안정성과 성능을 유지하는 관리자 역할을 한다
     - 동작 : 일반적으로 백그라운드에서 동작한다
     - 예시 : Scheduler, Interrupt Handler, Momory Manager, Device Driver, Network Stack 등이 존재한다
-    - 권한 : System Process의 Shell 명령에 의해 실행되는 Process는, Shell의 권한(Admin)을 상속받는다
+    - 권한 : Admin 권한을 가지고 있다. 추가적으로 System Process의 Shell 명령에 의해 실행되는 Process는, Shell의 권한(Admin)을 상속받는다
       
   - User Process
     - 기능 : 사용자가 실행시킨 프로그램으로, 사용자의 요청에 따라 생성되며 사용자와 상호 작용하는 역할을 한다
